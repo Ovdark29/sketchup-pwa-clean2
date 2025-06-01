@@ -1,0 +1,38 @@
+{
+  "longueurs": [1985, 2140, 2295, 2450, 2605, 2760, 2915, 3070, 3225, 3380, 3535, 3690, 3845, 4000, 4155, 4310, 4465, 4620, 4775, 4930, 5085, 5240, 5395, 5550, 5705, 5860, 6015, 6170, 6325, 6480, 6635, 6790, 6945],
+  "avancees": [2500, 2750, 3000, 3250, 3500, 3750, 4000, 4250, 4500, 4750, 5000],
+  "lames_par_longueur": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+  "couleurs": [
+    ["vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert"],
+    ["vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert"],
+    ["vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert"],
+    ["vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert"],
+    ["vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert"],
+    ["vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert"],
+    ["vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","rouge","rouge"],
+    ["vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","rouge","rouge","rouge","rouge"],
+    ["vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","rouge","rouge","rouge","rouge","rouge","rouge","rouge"],
+    ["vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","rouge","rouge","rouge","rouge","rouge","rouge","rouge","rouge","rouge","rouge"],
+    ["jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","rouge","rouge","rouge","rouge","rouge","rouge","rouge","rouge","rouge","rouge","rouge","rouge"],
+    ["jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","rouge","rouge","rouge","rouge","rouge","rouge","rouge","rouge","rouge","rouge","rouge","rouge","rouge"]
+  ],
+  "poteau_si_avancee": [
+    
+    { "avancee_min": 2500, "avancee_max": 2749, "longueur_seuil": 5085 },
+    { "avancee_min": 2750, "avancee_max": 2999, "longueur_seuil": 4775 },
+    { "avancee_min": 3000, "avancee_max": 3249, "longueur_seuil": 4465 },
+    { "avancee_min": 3250, "avancee_max": 3499, "longueur_seuil": 4310 },
+    { "avancee_min": 3500, "avancee_max": 3749, "longueur_seuil": 4310 },
+    { "avancee_min": 3750, "avancee_max": 3999, "longueur_seuil": 4155 },
+    { "avancee_min": 4000, "avancee_max": 4249, "longueur_seuil": 4155 },
+    { "avancee_min": 4250, "avancee_max": 4499, "longueur_seuil": 4155 },
+    { "avancee_min": 4500, "avancee_max": 4749, "longueur_seuil": 4155 },
+    { "avancee_min": 4750, "avancee_max": 5000, "longueur_seuil": 4155 }
+  ],
+  "poteau_si_longueur": [
+    { "longueur_min": 4155, "longueur_max": 4309, "avancee_seuil": 3749 },
+    { "longueur_min": 4310, "longueur_max": 4464, "avancee_seuil": 3249 },
+    { "longueur_min": 4465, "longueur_max": 4774, "avancee_seuil": 2999 },
+    { "longueur_min": 4775, "longueur_max": 5084, "avancee_seuil": 2749 }
+   ]
+}

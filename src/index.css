@@ -1,0 +1,91 @@
+/* index.css */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: url("images/background.jpg") center/cover no-repeat fixed;
+  color: white;
+}
+
+.logo {
+  display: block;
+  margin: 32px auto 0;
+  max-width: 260px;
+}
+
+.card {
+  max-width: 480px;
+  margin: 32px auto;
+  padding: 32px;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 16px;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #7fd0ff;
+  margin-bottom: 24px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+select,
+input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+  background-color: #222;
+  color: white;
+  margin-bottom: 8px;
+}
+
+button {
+  width: 100%;
+  background-color: #448aff;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 16px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background-color: #2979ff;
+}
+
+.result-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 28px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #e0e0e0;
+}
+
+.result-box p {
+  margin: 8px 0;
+}
+
+.text-red-400 {
+  color: #ff6b6b;
+}
+
+.text-green-400 {
+  color: #90ee90;
+}
+
+.text-yellow-300 {
+  color: #ffd54f;
+}
