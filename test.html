@@ -10,42 +10,58 @@
   <style>
     body {
       margin: 0;
-      font-family: sans-serif;
-      background: #222;
+      font-family: "Segoe UI", sans-serif;
+      background: url("images/background.jpg") center/cover no-repeat fixed;
       color: white;
-      padding: 2em;
-      font-size: 16px;
     }
-    .container {
+
+    .logo {
+      width: 180px;
+      display: block;
+      margin: 24px auto;
+    }
+
+    .card {
       max-width: 500px;
       margin: auto;
-      background: #333;
-      padding: 1.5em;
-      border-radius: 8px;
+      background: rgba(0,0,0,0.65);
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 0 16px rgba(0,0,0,0.5);
     }
+
+    h1 {
+      text-align: center;
+      color: #7fd0ff;
+      margin-bottom: 24px;
+    }
+
     label {
       display: block;
-      margin-top: 1em;
+      margin: 16px 0 6px;
     }
-    input, select {
+
+    select, input {
       width: 100%;
-      padding: 0.7em;
-      margin-top: 0.5em;
+      padding: 12px;
       font-size: 16px;
-      border-radius: 5px;
+      border-radius: 6px;
       border: none;
     }
+
     button {
-      margin-top: 1.5em;
-      padding: 1em;
       width: 100%;
+      margin-top: 20px;
       background: #0d6efd;
       color: white;
-      border: none;
-      border-radius: 5px;
       font-weight: bold;
+      padding: 14px;
       font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
     }
+
     .result-box {
       background-color: rgba(255, 255, 255, 0.1);
       padding: 16px;
@@ -57,29 +73,31 @@
   </style>
 </head>
 <body>
-  <div class="container">
+  <img src="images/logo.png" alt="Logo" class="logo" />
+  <div class="card">
     <h1>Vérification Pergola</h1>
 
-    <label for="type">Type de lames</label>
+    <label>Type de lames</label>
     <select id="type">
       <option value="lames_simples">Lames simples</option>
       <option value="lames_tubulaires">Lames tubulaires</option>
     </select>
 
-    <label for="config">Configuration</label>
+    <label>Configuration</label>
     <select id="config">
       <option value="1_poutre_1_verin">1 poutre 1 vérin</option>
       <option value="1_poutre_2_verins">1 poutre 2 vérins</option>
       <option value="2_poutres_2_verins">2 poutres 2 vérins</option>
     </select>
 
-    <label for="longueur">Longueur (mm)</label>
-    <input id="longueur" type="text" pattern="[0-9]*" placeholder="Ex: 4000" />
+    <label>Longueur (mm)</label>
+    <input id="longueur" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="Ex: 4000" />
 
-    <label for="avancee">Avancée (mm)</label>
-    <input id="avancee" type="text" pattern="[0-9]*" placeholder="Ex: 3000" />
+    <label>Avancée (mm)</label>
+    <input id="avancee" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="Ex: 3000" />
 
     <button onclick="valider()">Valider</button>
+
     <div id="resultat" class="result-box"></div>
   </div>
 
