@@ -1,0 +1,36 @@
+{
+  "longueurs": [1985, 2140, 2295, 2450, 2605, 2760, 2915, 3070, 3225, 3380, 3535, 3690, 3845, 4000, 4155, 4310, 4465, 4620, 4775, 4930, 5085, 5240, 5395, 5550, 5705, 5860, 6015],
+  "avancees": [1500, 1750, 2000, 2250, 2500, 2750, 3000, 3250, 3500, 3750, 4000],
+  "lames_par_longueur": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37],
+  "couleurs": [
+    ["vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert"],
+    ["vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert"],
+    ["vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert"],
+    ["vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert"],
+    ["vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert"],
+    ["vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert"],
+    ["vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert"],
+    ["vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert"],
+    ["vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert"],
+    ["vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","rouge","rouge","rouge"],
+    ["vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","vert","jaune","jaune","jaune","jaune","rouge","rouge","rouge","rouge","rouge"],
+    ["jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","rouge","rouge","rouge","rouge","rouge","rouge","rouge"],
+    ["jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","jaune","rouge","rouge","rouge","rouge","rouge","rouge","rouge","rouge","rouge","rouge","rouge","rouge","rouge"]
+  ],
+  "poteau_si_avancee": [
+    { "avancee_min": 2500, "avancee_max": 2749, "longueur_seuil": 5706 },
+    { "avancee_min": 2750, "avancee_max": 2999, "longueur_seuil": 5551 },
+    { "avancee_min": 3000, "avancee_max": 3249, "longueur_seuil": 5086 },
+    { "avancee_min": 3250, "avancee_max": 3499, "longueur_seuil": 4466 },
+    { "avancee_min": 3500, "avancee_max": 3749, "longueur_seuil": 4156 },
+    { "avancee_min": 3750, "avancee_max": 4000, "longueur_seuil": 4001 }
+  ],
+  "poteau_si_longueur": [
+    { "longueur_min": 4155, "longueur_max": 4310, "avancee_seuil": 3501 },
+    { "longueur_min": 4311, "longueur_max": 4620, "avancee_seuil": 3251 },
+    { "longueur_min": 4621, "longueur_max": 5240, "avancee_seuil": 3001 },
+    { "longueur_min": 5247, "longueur_max": 5705, "avancee_seuil": 2751 },
+    { "longueur_min": 5706, "longueur_max": 5860, "avancee_seuil": 2501 },
+    { "longueur_min": 5861, "longueur_max": 6015, "avancee_seuil": 2251 }
+  ]
+}
